@@ -1,0 +1,5 @@
+n1=input("digite algo:")
+print("isso é um número?",(n1.isnumeric()))
+print("isso é uma letra?",(n1.isalpha()))
+print("A letra é minuscula?",(n1.islower()))
+print("A letra é maiúscula??",(n1.isupper()))

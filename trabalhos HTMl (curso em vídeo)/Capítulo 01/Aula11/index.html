@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mídias em HTML5</title>
+</head>
+<body>
+    <h1> Imagem dinâmica</h1>
+    <p>
+        Tente abrir essa imagem em vários dispositivos diferentes
+    </p>
+    <picture>
+        <source media="(max-width:750px )" srcset="Fotos/P.png" type="image/png">
+        <source media="(max-width:900px )" srcset="Fotos/M.png" type="image/png">
+        <img src="Fotos/G.png" alt="Foto G">
+    </picture>
+    <h1> Reproduzir audio</h1>
+    <p>
+        Abrindo audio com html
+    </p>
+    <audio src="Audio/Échappé - Dan Bodan.mp3" controls>Reproduzir</audio>
+    <h1> Reproduzir vídeos</h1>
+    <p> Este vídeo está hospedado no seu servidor</p>
+    <video src="Fotos/13974053_1920_1080_24fps.mp4"poster=""width="1000 "controls></video>
+    <p> Este vídeo será reproduzido a partir de outro servidor</p>
+    <iframe width="560" height="500" src="https://www.youtube.com/embed/R_JW3BRrw10?si=HZAmMQpf5e_TkwX9" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</body>
+</html>

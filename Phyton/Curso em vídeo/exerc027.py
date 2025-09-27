@@ -1,0 +1,5 @@
+nome=input('escreva seu nome').strip()
+d=nome.split()
+s=nome.split()
+print(d[0])
+print('Seu últiomo nome é {}'.format(s[len(nome)-1]))
