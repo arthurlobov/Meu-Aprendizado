@@ -11,7 +11,7 @@ nacionalidade varchar (20) default 'Brasil',
 primary key (id)
 ) default charset = utf8mb3;
 describe pessoas <!-- Escrever na tabela-->
-<!-- -->
+
 # Inserir elementos na tabela
 
 insert into pessoas <!-- inserir na tabela  -->
