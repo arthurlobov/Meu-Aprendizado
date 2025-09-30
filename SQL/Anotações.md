@@ -32,6 +32,15 @@ values
 insert into pessoas values <!-- valores na mesma posição da tabela -->
 (default,'Emylly','1999-12-16','F','72','1.76',default);
 
+# Modificar elementos na tabela
+
+update curso <!-- Altere o valor onde = ? -->
+set nome = 'HTML5' where id = 1 <!-- set do valor -->
+limit 1; <!-- Limita a quantidade de linhas que esse código pode atingir -->
+
+delete from curso <!-- deletar linha -->
+where id=8;
+
 # Alterar dados da tabela
 
 alter table pessoas <!-- Alterar tabela -->
@@ -62,6 +71,8 @@ create table if not exists curso (
     totaulas int,
     ano year default '2016'
 ) default charset = utf8bm3;
+
+
 # Selecionar dados da tabela
 
 
