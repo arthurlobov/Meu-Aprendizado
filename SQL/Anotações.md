@@ -41,6 +41,8 @@ limit 1; <!-- Limita a quantidade de linhas que esse código pode atingir -->
 delete from curso <!-- deletar linha -->
 where id=8;
 
+truncate table cursos; <!-- Apagar todos os elementos da tabela -->
+
 # Alterar dados da tabela
 
 alter table pessoas <!-- Alterar tabela -->
